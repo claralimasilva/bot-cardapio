@@ -125,7 +125,7 @@ def cmd_hoje(message):
 @bot.message_handler(func=lambda message: True)
 def cmd_chat_id(message):
     logging.info(f"Chat ID: {message.chat.id}")
-    bot.reply_to(message, f"Seu chat_id é: {message.chat.id}")
+    #bot.reply_to(message, f"Seu chat_id é: {message.chat.id}")
 
 # ---------------------------------------
 # AGENDAMENTO COM VERIFICAÇÃO DE FERIADO
